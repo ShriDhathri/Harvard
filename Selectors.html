@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CSS Selectors</title>
+        <style>
+            ul > li{
+                color: blue;
+            }
+            ul + li{
+                color: brown;
+            }
+            a{
+                color:rgb(177, 238, 11);
+            }
+            a[href="https://instagram.com"]{
+                /* [] is used to rep the particular Attribute */
+                color:rgb(232, 35, 196)
+            }
+            button{
+                width:100px;
+                height: 25px;
+                font-size:18px;
+                background-color:rgb(197, 156, 234);
+            }
+
+            button:hover{
+                background-color: orange;
+            }
+        </style>
+    </head>
+    <body>
+        <ol>
+            <li>List item 1</li>
+            <li>List item 2</li>
+            <ul>
+                <li>Sublist item 1</li>
+                <li>Sublist item 2</li>
+            </ul>
+            <li>Another list</li>
+            <div>
+                <ul>
+                    <li><a href="https://google.com">Google</a></li>
+                    <li><a href="https://instagram.com">Instagram</a></li>
+                    <li><a href="https://amazon.com">Amazon</a></li>
+                </ul>
+             </div>
+             <br>
+             <button>Click me</button>
+        </ol>
+    </body>
+</html>

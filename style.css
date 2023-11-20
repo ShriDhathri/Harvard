@@ -1,0 +1,31 @@
+/* h1{
+    color:blue;
+    text-align:center;
+} */
+/* id can be given only once it is unique and is initialized by #*/
+/* Class is given for 2 or more different or same elements and is initialized by . */
+
+
+#ww{
+    color: blueviolet;
+    text-align: center;
+    border:5px solid black;
+}
+.hh{
+    color:brown;
+    text-align:center;
+}
+
+div{
+    background-color: burlywood;
+    width:100px;
+    height:50px;
+    padding:30px;
+    /* Padding is for the right and left side  OR it's in the inside of the border*/
+    margin:10px;
+    /* margin is to give space from all 4 sides OR it's on the outside of the border */
+    font-family:Arial,sans-serif;
+    font-size:30px;
+    font-weight:bolder;
+    border:5px solid black
+}

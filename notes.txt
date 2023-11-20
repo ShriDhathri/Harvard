@@ -1,0 +1,34 @@
+SPECIFITY:
+1.Inline
+2.id
+3.Class
+4.Type
+if we specify id and div at a same time the it will display based on the specifity order
+Eg:<div id="foo">
+     Hello!
+   </div>
+   CSS:
+   div{
+    color:blue;
+   }
+   #foo{
+    color:red
+   }
+
+   outpu will be Hello! in RED color as id comes first based on the SPECIFICITY
+
+   CSS SELECTORS:
+   a,b --> Multiple element selctors
+   a b --> Descendant selctors
+   a > b --> Child selctors
+   a + b --> Adjacent sibling selectors
+   [a=b] --> Attribute selctors
+   a:b --> Pseudoclass selctors
+   a::b --> Pseudoelement selctors
+
+   BOOTSTRAP:It is popular CSS library that we can use in order to do some styling
+
+SASS is a language used in CSS
+* SCSS is the extension used here
+* We can't use variables is CSS but can be used in SASS
+* In SASS all the variables begin with $ symbol
